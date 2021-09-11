@@ -26,7 +26,7 @@ with open('syslog.txt') as syslog:
             end = error_msg.index(')')
             result = error_msg[start:end]
             templist_info.append(result + ' INFO')
-    # Counts that shit
+    # Counts
     Error_Count = Counter(templist_error)
     Per_user = Counter(templist_info)
 
